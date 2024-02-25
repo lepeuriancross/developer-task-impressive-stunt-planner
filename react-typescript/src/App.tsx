@@ -119,7 +119,7 @@ export default function App() {
 										))}
 									</div>
 								</div>
-								<div className="app__graph-margin absolute z-30 top-0 left-0 flex flex-col-reverse justify-between w-8 h-full border-r-[2px] bg-white border-gray-900">
+								<div className="app__graph-margin absolute z-30 top-0 left-0 flex flex-col-reverse justify-between w-8 h-full border-r-[2px] overflow-hidden bg-white border-gray-900">
 									{[...Array(maxHeight)].map((_, y) => (
 										<span
 											key={`app__graph-margin-${y}`}
